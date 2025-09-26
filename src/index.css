@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+
+@keyframes borderGlow {
+  0% {
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.4);
+  }
+}
+
+/* utility class */
+.border-glow {
+  animation: borderGlow 3s linear infinite;
+}
+
+
+.swiper-pagination {
+  margin-top: 20px !important; /* dots aur cards ke beech space */
+  position: relative !important; /* bottom me chipakne se bacha lega */
+}
+
