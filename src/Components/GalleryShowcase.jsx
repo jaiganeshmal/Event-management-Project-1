@@ -76,6 +76,7 @@ const GalleryShowcase = () => {
             <img
               src={img}
               alt={`gallery-${index}`}
+              loading="lazy"
               className="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
             />
             {/* Overlay hover effect */}
@@ -109,6 +110,7 @@ const GalleryShowcase = () => {
           <img
             src={getImages()[currentIndex]}
             alt="preview"
+            loading="lazy"
             className="max-h-[80vh] max-w-[90%] rounded-lg shadow-lg object-contain"
           />
 

@@ -57,6 +57,7 @@ const Services = () => {
             <img
               src={card.img}
               alt={card.title}
+              loading="lazy"
               className="w-full h-[350px] object-cover transition duration-500 group-hover:scale-105"
             />
 

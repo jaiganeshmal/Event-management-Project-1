@@ -42,6 +42,7 @@ const Achievements = () => {
                             <img
                                 src={stat.icon}
                                 alt={stat.text}
+                                loading="lazy"
                                 className="w-14 h-14 object-contain mb-4"
                             />
                             {/* Title */}

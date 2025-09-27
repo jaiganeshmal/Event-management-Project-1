@@ -68,6 +68,7 @@ const Footer = () => {
                             src={assets.logo}
                             alt="Marcem Logo"
                             className="w-36 object-contain"
+                            loading="lazy"
                         />
                         <p className="text-sm leading-relaxed">
                             MARCEM Event Planner Services has the expertise and passion to

@@ -11,6 +11,7 @@ const WhoWeAre = () => {
           <img
             src={assets.image1} // 🔹 yahan image1 ayegi
             alt="Event"
+            loading="lazy"
             className="w-full md:w-[90%] h-[500px] md:h-[500px] rounded-xl shadow-lg object-cover "
           />
           {/* Decorative Shape */}

@@ -63,6 +63,7 @@ const Steps = () => {
                         <img
                             src={step.img}
                             alt={step.title}
+                            loading="lazy"
                             className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                         />
 

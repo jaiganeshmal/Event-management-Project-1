@@ -34,6 +34,7 @@ const BoardMembers = () => {
             <img
               src={member.img}
               alt={member.name}
+              loading="lazy"
               className="w-full h-64 object-cover"
             />
             <div className="p-5 text-center">

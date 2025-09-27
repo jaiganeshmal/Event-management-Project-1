@@ -52,6 +52,7 @@ const Clients = () => {
               <img
                 src={logo}
                 alt={`Client ${index + 2}`}
+                loading="lazy"
                 className="h-28 w-auto object-contain mix-blend-multiply"
               />
             </div>

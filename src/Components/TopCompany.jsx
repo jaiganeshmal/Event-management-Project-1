@@ -9,6 +9,7 @@ const TopCompany = () => {
         <img
           src={assets.image61}
           alt="Top Event Management"
+          loading="lazy"
           className="w-full h-[450px] object-cover rounded-xl shadow-lg  transition-transform duration-500"
         />
         {/* Gradient Overlay (Optional for premium look) */}
