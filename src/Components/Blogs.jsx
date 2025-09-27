@@ -26,11 +26,6 @@ const blogs = [
         desc: "Planning your Walima? Let’s create something beautiful together.",
     },
     {
-        img: assets.image65,
-        title: "Mehendi Decorations Ideas - By UC",
-        desc: "Brighten your mehndi with 7 and more stunning setups by Marcem.",
-    },
-    {
         img: assets.image66,
         title: "10 Nikka Setup Decor Ideas",
         desc: "Your vision, your theme - our expertise. If you come without any clear idea, we offer a wide collection.",

@@ -3,10 +3,10 @@ import { assets } from "../assets/global";
 import { FaArrowRight } from "react-icons/fa6";
 
 const members = [
-  { img: assets.image57, name: "Muhammad Shariq Afaq", role: "CEO" },
-  { img: assets.image58, name: "Muhammad Umaiz Afaq", role: "Director" },
-  { img: assets.image59, name: "Faiza Muhammad Shariq", role: "Director" },
-  { img: assets.image60, name: "Muhammad Junaid Afaq", role: "Director" },
+  { img: assets.image57, name: "Muhammad Subayyal Siraj", role: "CEO" },
+  { img: assets.image58, name: "Muhammad Rafay", role: "Director" },
+  { img: assets.image59, name: "Muhammad Abdullah", role: "Director" },
+  { img: assets.image60, name: "Raheeb Vali", role: "Director" },
 ];
 
 const BoardMembers = () => {
