@@ -16,7 +16,8 @@ const Hero = () => {
       />
 
       {/* Overlay Dark Shade */}
-      {/* <div className="absolute top-0 left-0 w-full h-full bg-black/40"></div> */}
+      {/* <div className="absolute
+       top-0 left-0 w-full h-full bg-black/40"></div> */}
 
       {/* Form Section */}
       <div className="hidden md:block relative z-10 w-[60%] md:w-[350px] bg-white/80 rounded-2xl shadow-xl p-8 md:mr-16 md:ml-auto mx-auto ">
