@@ -83,8 +83,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/marcem-event-planners" className="block px-4 py-2 hover:bg-gray-100">
-                  Marcem Event Planners
+                <Link to="/event-planners" className="block px-4 py-2 hover:bg-gray-100">
+                   Event Planners
                 </Link>
               </li>
               <li>
@@ -161,7 +161,7 @@ const Navbar = () => {
             </p>
             <div className="ml-4 mt-2 space-y-2 text-sm">
               <Link to="/company-profile" onClick={() => setMobileOpen(false)}>Company Profile</Link>
-              <Link to="/marcem-event-planners" onClick={() => setMobileOpen(false)}>Marcem Event Planners</Link>
+              <Link to="/event-planners" onClick={() => setMobileOpen(false)}> Event Planners</Link>
               <Link to="/blogs" onClick={() => setMobileOpen(false)}>Blogs Post</Link>
               <Link to="/giveaway" onClick={() => setMobileOpen(false)}>Giveaway</Link>
             </div>

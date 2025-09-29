@@ -16,7 +16,7 @@ const Services = () => {
     {
       img: assets.image15,
       title: "Best Catering Services",
-      desc: "Marcem event planners offer the best catering services in Karachi. It’s not just about the food but the taste that lasts for years. Explore our catering menu and choose the best cuisine for your special day.",
+      desc: "UC event planners offer the best catering services in Karachi. It’s not just about the food but the taste that lasts for years. Explore our catering menu and choose the best cuisine for your special day.",
     },
   ];
 

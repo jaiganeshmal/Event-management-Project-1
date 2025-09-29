@@ -32,7 +32,7 @@ const WhoWeAre = () => {
 
           {/* Paragraph */}
           <p className="text-gray-600 leading-relaxed text-justify">
-            MARCEM Event Planner is a creative event planning and management company
+            Uc Event Planner is a creative event planning and management company
             in Karachi that plans, designs, manages and executes your events from
             the start to the final day. We are the leading event planners in Karachi
             city who offer a wide range of services to cover all domains. From

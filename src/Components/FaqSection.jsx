@@ -6,9 +6,9 @@ const FaqSection = () => {
 
   const faqs = [
     {
-      question: "Why should I choose MARCEM Event Planner for my event?",
+      question: "Why should I choose UC Event Planner for my event?",
       answer:
-        "With 7+ years of experience and 1,600+ successful projects, MARCEM ensures every event is seamless, creative, and memorable. We focus on making your special day stress-free and truly remarkable.",
+        "With 7+ years of experience and 1,600+ successful projects, Uc ensures every event is seamless, creative, and memorable. We focus on making your special day stress-free and truly remarkable.",
     },
     {
       question: "What types of events do you plan?",
@@ -16,7 +16,7 @@ const FaqSection = () => {
         "We handle all kinds of events, including corporate functions, weddings, private parties, and catering services. Whether small or large, our team delivers with precision and creativity.",
     },
     {
-      question: "Can MARCEM customize event themes?",
+      question: "Can UC customize event themes?",
       answer:
         "Yes, we design personalized themes, décor, and activities tailored to your style and vision, making each event unique and unforgettable.",
     },
@@ -35,7 +35,7 @@ const FaqSection = () => {
         </h2>
         <p className="text-gray-700 leading-relaxed text-sm md:text-base">
           Looking for reliable event organizers in Karachi? Your struggle ends
-          here! Trust MARCEM to transform your vision into a flawless reality.
+          here! Trust UC to transform your vision into a flawless reality.
           As a leading choice in Pakistan. We strictly make sure every details
           exceeds your expectations.
         </p>

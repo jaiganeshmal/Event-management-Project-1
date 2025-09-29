@@ -66,7 +66,7 @@ export const assets = {
     image57: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758957148/img57_s4afqc.jpg',
     image58: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758957177/img58_hlmya6.jpg',
     image59: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758957208/img59_fz7x3c.jpg',
-    image60: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758957227/img60_fzvmfm.jpg',
+    image60: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1759133024/img60_fzvmfm.jpg',
     image61: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758957381/img61_wjwk3j.jpg',
     image62: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758953678/img62_vajzjx.webp',
     image63: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1758953679/img63_muysdk.webp',

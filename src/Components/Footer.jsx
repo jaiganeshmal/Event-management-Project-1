@@ -66,12 +66,12 @@ const Footer = () => {
                     <div className="space-y-4">
                         <img
                             src={assets.logo}
-                            alt="Marcem Logo"
+                            alt="UC Logo"
                             className="w-36 object-contain"
                             loading="lazy"
                         />
                         <p className="text-sm leading-relaxed">
-                            MARCEM Event Planner Services has the expertise and passion to
+                            UC Event Planner Services has the expertise and passion to
                             deliver a truly unforgettable experience.
                         </p>
                         <div className="flex gap-3">
@@ -130,7 +130,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center gap-3">
                                 <FaEnvelope className="text-white" />
-                                <span>info@marcem.com.pk</span>
+                                <span>info.com.pk</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <FaPhone className="text-white" />

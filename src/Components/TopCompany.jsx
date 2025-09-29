@@ -23,7 +23,7 @@ const TopCompany = () => {
         </h2>
 
         <p className="text-gray-700 leading-relaxed text-base">
-          Our belief at MARCEM is that your events need to experience
+          Our belief at UC is that your events need to experience
           exceptional quality. Our premium event management services work to
           bring your vision to life with perfection so that each element
           demonstrates both your personal style and intended purpose.
