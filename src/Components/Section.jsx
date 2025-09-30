@@ -3,9 +3,9 @@ import { FaFacebookF, FaInstagram, FaSnapchatGhost, FaTiktok } from "react-icons
 
 const Section = () => {
   return (
-    <div className="w-full bg-white text-center py-16 px-6">
+    <div className="w-full bg-white text-center py-8 px-6">
       {/* Top Line + Text + Line */}
-      <div className="flex items-center justify-center gap-4 mb-6">
+      <div className="flex items-center justify-center gap-4 mb-2">
         <span className="h-[2px] w-16 bg-black"></span>
         <p className="text-black font-semibold tracking-wide uppercase">
           Welcome To UC Event
@@ -14,13 +14,13 @@ const Section = () => {
       </div>
 
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Best Event Planners In{" "}
         <span className="text-blue-600">Karachi</span> Pakistan
       </h2>
 
       {/* Paragraph */}
-      <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-10">
+      <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-4">
         UC Event Planner comprises of the best event planner in Karachi that
         make your event memorable. We deliver transformational elements to any
         event that goes beyond the normal expectations of our clients. From

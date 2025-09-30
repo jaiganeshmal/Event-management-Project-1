@@ -18,7 +18,7 @@ const FaqSection = lazy(() => import("../Components/FaqSection"));
 
 export default function Home() {
     return (
-        <div className="space-y-24">
+        <>
             <Suspense fallback={<Loader />}>
                 <Hero />
                 <Section />
@@ -34,6 +34,6 @@ export default function Home() {
                 <Blogs />
                 <FaqSection />
             </Suspense>
-        </div>
+        </>
     );
 }

@@ -4,9 +4,9 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const BestCompany = () => {
     return (
-        <div className="w-[90%] mx-auto py-16 grid grid-cols-1 md:grid-cols-5 gap-12 items-center">
+        <div className="w-[90%] mx-auto py-6 grid grid-cols-1 md:grid-cols-5 gap-12 items-center">
             {/* Left Side - Video */}
-            <div className="md:col-span-2 relative rounded-xl overflow-hidden h-[450px] md:h-[450px] lg:h-[500px] ">
+            <div className="md:col-span-2 relative rounded-xl overflow-hidden h-[450px] md:h-[450px]  ">
                 <video
                     src={assets.video1}
                     autoPlay
@@ -19,7 +19,7 @@ const BestCompany = () => {
             </div>
 
             {/* Right Side - Content */}
-            <div className="md:col-span-3 flex flex-col space-y-6 md:p-0 p-6">
+            <div className="md:col-span-3 flex flex-col space-y-2 md:p-0 p-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#053268] leading-snug">
                     Choose The Best Event Management Company In Pakistan
                 </h2>

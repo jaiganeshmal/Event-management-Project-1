@@ -54,12 +54,12 @@ const blogs = [
 
 const Blogs = () => {
     return (
-        <div className="w-[90%] mx-auto py-6">
+        <div className="w-[90%] mx-auto py-6 ">
             {/* Highlight Title */}
-            <h2 className="text-xl font-bold text-[#004394] mb-6">Our Blogs</h2>
+            <h2 className="text-xl font-bold text-[#004394] mb-2">Our Blogs</h2>
 
             {/* Heading Row */}
-            <div className="flex flex-col md:flex-row justify-between items-center mb-12">
+            <div className="flex flex-col md:flex-row justify-between items-center mb-6">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
                     Don&apos;t Miss Our Latest Updates
                 </h3>

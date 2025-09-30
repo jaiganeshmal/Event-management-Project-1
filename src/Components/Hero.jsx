@@ -4,7 +4,7 @@ import { assets } from "../assets/global";
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-screen flex items-center justify-between overflow-hidden">
+    <div className="relative w-full h-screen flex items-center justify-between overflow-hidden ">
       {/* Background Video */}
       <video
         src={assets.header} // 🔹 apna video yahan dalna

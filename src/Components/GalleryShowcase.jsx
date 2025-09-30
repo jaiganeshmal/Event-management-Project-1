@@ -41,14 +41,14 @@ const GalleryShowcase = () => {
   };
 
   return (
-    <div className="w-[90%] mx-auto py-16 bg-[#ECF3F7] rounded-xl shadow-sm">
+    <div className="w-[90%] mx-auto py-8 bg-[#ECF3F7] rounded-xl shadow-sm">
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
         <span className="text-[#004394]">Our</span> Gallery Showcase
       </h2>
 
       {/* Buttons */}
-      <div className="flex flex-wrap justify-center gap-4 mb-10">
+      <div className="flex flex-wrap justify-center gap-4 mb-8">
         {categories.map((cat) => (
           <button
             key={cat}
@@ -66,7 +66,7 @@ const GalleryShowcase = () => {
       </div>
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 md:px-8">
         {getImages().map((img, index) => (
           <div
             key={index}

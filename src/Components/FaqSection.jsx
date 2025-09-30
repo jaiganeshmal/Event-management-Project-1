@@ -27,7 +27,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className="w-[90%] mx-auto pt-6 pb-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    <div className="w-[90%] mx-auto py-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
       {/* Left Side */}
       <div className="flex flex-col space-y-6">
         <h2 className="text-2xl md:text-3xl font-bold text-[#26325E] leading-snug">

@@ -36,7 +36,7 @@ const Steps = () => {
     ];
 
     return (
-        <div className="w-[90%] mx-auto py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="w-[90%] mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

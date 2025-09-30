@@ -13,7 +13,7 @@ const stats = [
 const Achievements = () => {
     return (
         <div
-            className="relative w-[90%] mx-auto py-20 px-6 md:px-12 rounded-xl bg-cover bg-center text-white"
+            className="relative w-[90%] mx-auto py-8 px-6 md:px-12 rounded-xl bg-cover bg-center text-white"
             style={{ backgroundImage: `url(${assets.image12})` }}
         >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">

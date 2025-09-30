@@ -11,9 +11,9 @@ const members = [
 
 const BoardMembers = () => {
   return (
-    <div className="w-[90%] mx-auto py-16">
+    <div className="w-[90%] mx-auto py-8">
       {/* Top Row */}
-      <div className="flex flex-col md:flex-row justify-between items-center mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center mb-6">
         <h2 className="text-2xl md:text-3xl font-bold">
           <span className="text-[#053268]">Meet</span> Our Board Members
         </h2>

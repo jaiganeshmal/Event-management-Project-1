@@ -26,14 +26,14 @@ const navLinks = [
 const Footer = () => {
     return (
         <footer
-            className="w-[98%] mx-auto mt-16 rounded-xl overflow-hidden"
+            className="w-[98%] mx-auto mt-2 border border-red-700 rounded-xl overflow-hidden"
             style={{
                 backgroundImage: `url(${assets.image12})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
-            <div className=" w-full h-full px-6 md:px-12 py-12 space-y-10">
+            <div className=" w-full h-full px-6 md:px-10 py-6 space-y-6">
                 {/* Top CTA Row */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     {/* Left Text */}
@@ -67,7 +67,7 @@ const Footer = () => {
                         <img
                             src={assets.logo}
                             alt="UC Logo"
-                            className="w-36 object-contain"
+                            className="w-44 object-contain"
                             loading="lazy"
                         />
                         <p className="text-sm leading-relaxed">

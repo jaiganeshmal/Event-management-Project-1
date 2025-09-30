@@ -22,7 +22,7 @@ const Services = () => {
 
   return (
     <div
-      className="relative w-[90%] mx-auto py-20 px-6 rounded-2xl shadow-lg overflow-hidden"
+      className="relative w-[90%] mx-auto py-8 px-6 rounded-2xl shadow-lg overflow-hidden"
       style={{
         backgroundImage: `url(${assets.image12})`,
         backgroundSize: "cover",
@@ -30,13 +30,11 @@ const Services = () => {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content */}
       <div className="relative text-center text-white z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Core Services</h2>
-        <p className="max-w-3xl mx-auto text-lg mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold mb-2">Our Core Services</h2>
+        <p className="max-w-3xl mx-auto text-lg mb-4">
           Being a premier event planning company in Karachi, we cover a wide range
           of services. Whether it’s corporate events, weddings or catering
           services, we guarantee 100% quality-driven outcomes.
@@ -47,7 +45,7 @@ const Services = () => {
       </div>
 
       {/* Cards */}
-      <div className="relative z-10 mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="relative z-10 mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {cards.map((card, i) => (
           <div
             key={i}

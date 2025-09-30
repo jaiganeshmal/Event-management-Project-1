@@ -20,7 +20,7 @@ const Clients = () => {
   ];
 
   return (
-    <div className="w-full bg-white py-20 px-6 md:px-16">
+    <div className="w-full bg-white p-6 md:px-16 border">
       {/* Text Section */}
       <div className="text-left mb-16">
         <h3 className="text-2xl font-semibold text-[#053268] mb-2">

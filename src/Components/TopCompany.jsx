@@ -3,7 +3,7 @@ import { assets } from "../assets/global";
 
 const TopCompany = () => {
   return (
-    <div className="w-[90%] mx-auto py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div className="w-[90%] mx-auto py-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       {/* Left Side - Image */}
       <div className="relative">
         <img
@@ -17,7 +17,7 @@ const TopCompany = () => {
       </div>
 
       {/* Right Side - Content */}
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-3">
         <h2 className="text-3xl md:text-4xl font-bold text-black leading-snug">
           One of the Top Event Management Companies in Pakistan
         </h2>
