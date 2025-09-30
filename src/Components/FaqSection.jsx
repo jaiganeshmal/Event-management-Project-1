@@ -30,7 +30,7 @@ const FaqSection = () => {
     <div className="w-[90%] mx-auto py-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
       {/* Left Side */}
       <div className="flex flex-col space-y-6">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#26325E] leading-snug">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#C62828] leading-snug">
           Looking for the Best Event Organizer in Karachi, Pakistan
         </h2>
         <p className="text-gray-700 leading-relaxed text-sm md:text-base">
@@ -39,18 +39,18 @@ const FaqSection = () => {
           As a leading choice in Pakistan. We strictly make sure every details
           exceeds your expectations.
         </p>
-        <button className="w-fit bg-[#26325E] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#1d2448] transition-all duration-300">
+        <button className="w-fit bg-[#FBC02D] text-white px-6 py-3 rounded-lg shadow-md  transition-all duration-300">
           Get Your Quote
         </button>
       </div>
 
       {/* Right Side - FAQ */}
       <div className="space-y-6">
-        <span className="px-4 py-1 bg-[#26325E] text-white text-sm font-semibold rounded-full w-fit">
+        <span className="px-4 py-1 bg-[#C62828] text-white text-sm font-semibold rounded-full w-fit">
           FAQS
         </span>
         <h3 className="text-xl md:text-2xl font-bold text-gray-800">
-          <span className="text-[#26325E]">Most</span> Common Questions
+          <span className="text-[#C62828]">Most</span> Common Questions
         </h3>
 
         <div className="space-y-4">

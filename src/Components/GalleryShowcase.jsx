@@ -44,7 +44,7 @@ const GalleryShowcase = () => {
     <div className="w-[90%] mx-auto py-8 bg-[#ECF3F7] rounded-xl shadow-sm">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-        <span className="text-[#004394]">Our</span> Gallery Showcase
+        <span className="text-[#C62828]">Our</span> Gallery Showcase
       </h2>
 
       {/* Buttons */}
@@ -56,8 +56,8 @@ const GalleryShowcase = () => {
             className={`px-5 py-2 rounded-lg font-medium shadow-md transition-all duration-300 
               ${
                 activeCategory === cat
-                  ? "bg-[#004394] text-white"
-                  : "bg-white text-black hover:bg-[#004394] hover:text-white"
+                  ? "bg-[#FBC02D] text-white"
+                  : "bg-white text-black hover:bg-[#FBC02D] hover:text-white"
               }`}
           >
             {cat}

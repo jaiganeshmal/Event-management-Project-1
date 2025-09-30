@@ -56,14 +56,14 @@ const Blogs = () => {
     return (
         <div className="w-[90%] mx-auto py-6 ">
             {/* Highlight Title */}
-            <h2 className="text-xl font-bold text-[#004394] mb-2">Our Blogs</h2>
+            <h2 className="text-xl font-bold text-[#C62828] mb-2">Our Blogs</h2>
 
             {/* Heading Row */}
             <div className="flex flex-col md:flex-row justify-between items-center mb-6">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
                     Don&apos;t Miss Our Latest Updates
                 </h3>
-                <button className="group flex items-center gap-2 bg-[#053268] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#03244d] transition-all duration-300 mt-6 md:mt-0">
+                <button className="group flex items-center gap-2 bg-[#FBC02D] text-white px-6 py-3 rounded-lg shadow-md  transition-all duration-300 mt-6 md:mt-0">
                     Explore More
                     <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </button>
@@ -97,7 +97,7 @@ const Blogs = () => {
                                     <h4 className="text-lg font-semibold text-gray-900">{blog.title}</h4>
                                     <p className="text-sm text-gray-600 mt-2">{blog.desc}</p>
                                 </div>
-                                <button className="w-fit mt-4 text-[#053268] font-semibold border border-[#053268] px-4 py-2 rounded-lg hover:bg-[#053268] hover:text-white transition-all duration-300">
+                                <button className="w-fit mt-4 text-black hover:text-white font-semibold border border-[#FBC02D] hover:bg-[#FBC02D] px-4 py-2 rounded-lg  transition-all duration-300">
                                     Read More
                                 </button>
                             </div>

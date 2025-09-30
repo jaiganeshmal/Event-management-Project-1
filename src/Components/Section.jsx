@@ -16,7 +16,7 @@ const Section = () => {
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
         Best Event Planners In{" "}
-        <span className="text-blue-600">Karachi</span> Pakistan
+        <span className="text-[#C62828]">Karachi</span> Pakistan
       </h2>
 
       {/* Paragraph */}

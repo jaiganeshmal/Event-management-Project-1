@@ -15,10 +15,10 @@ const BoardMembers = () => {
       {/* Top Row */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-6">
         <h2 className="text-2xl md:text-3xl font-bold">
-          <span className="text-[#053268]">Meet</span> Our Board Members
+          <span className="text-[#C62828]">Meet</span> Our Board Members
         </h2>
 
-        <button className="group flex items-center gap-2 bg-[#053268] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#03244d] transition-all duration-300 mt-6 md:mt-0">
+        <button className="group flex items-center gap-2 bg-[#FBC02D] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#03244d] transition-all duration-300 mt-6 md:mt-0">
           Explore More
           <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
         </button>

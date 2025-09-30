@@ -122,7 +122,7 @@ const Navbar = () => {
       <div className="hidden md:block">
         <Link
           to="/new-chat"
-          className="bg-yellow-500 text-black font-semibold px-5 py-2 rounded-lg hover:bg-yellow-400 transition"
+          className="bg-[#FBC02D] text-white font-semibold px-5 py-2 rounded-lg  transition"
         >
           New Chat
         </Link>

@@ -20,14 +20,14 @@ const Clients = () => {
   ];
 
   return (
-    <div className="w-full bg-white p-6 md:px-16 border">
+    <div className="w-full bg-white p-6 md:px-16 ">
       {/* Text Section */}
-      <div className="text-left mb-16">
-        <h3 className="text-2xl font-semibold text-[#053268] mb-2">
+      <div className="text-left mb-6">
+        <h3 className="text-2xl font-semibold text-[#C62828] mb-2">
           Our Clients
         </h3>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-          <span className="text-[#053268]">Trusted</span> By Many Clients
+          <span className="text-[#C62828]">Trusted</span> By Many Clients
         </h2>
       </div>
 

@@ -70,7 +70,7 @@ const Hero = () => {
           {/* Button */}
           <button
             type="submit"
-            className="bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-500 transition"
+            className="bg-[#FBC02D] text-white font-semibold py-2 rounded-lg  transition"
           >
             Send Message
           </button>
@@ -84,19 +84,19 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-3">
             <div className="flex gap-4 sm:gap-6">
               <a href="https://facebook.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-blue-500 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:bg-blue-500 transition shadow-md">
                 <FaFacebookF />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-pink-500 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaInstagram />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-red-600 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaYoutube />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-blue-700 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaLinkedinIn />
               </a>
             </div>
@@ -109,19 +109,19 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-3">
             <div className="flex gap-4 sm:gap-6">
               <a href="https://facebook.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-blue-500 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaFacebookF />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-pink-500 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaInstagram />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-red-600 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaYoutube />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-black hover:bg-blue-700 hover:text-white transition shadow-md">
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#C62828] text-white hover:text-blue-500 transition shadow-md">
                 <FaLinkedinIn />
               </a>
             </div>

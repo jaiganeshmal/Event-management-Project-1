@@ -21,13 +21,13 @@ const WhoWeAre = () => {
         {/* Right - Content */}
         <div className="space-y-6">
           {/* Small Heading */}
-          <span className="bg-[#F4F4F4] inline-block px-5 py-1 text-sm font-semibold uppercase tracking-wide text-[#053268] rounded-md shadow-sm">
+          <span className="bg-[#F4F4F4] inline-block px-5 py-1 text-sm font-semibold uppercase tracking-wide text-[#C62828] rounded-md shadow-sm">
             Who We Are
           </span>
 
           {/* Main Heading */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-            <span className="text-[#053268]">Most</span> Trusted Event Planners in Karachi, Pakistan
+            <span className="text-[#C62828]">Most</span> Trusted Event Planners in Karachi, Pakistan
           </h2>
 
           {/* Paragraph */}
@@ -47,7 +47,7 @@ const WhoWeAre = () => {
           </p>
 
           {/* Button */}
-          <button className="cursor-pointer flex items-center gap-3 bg-[#053268] text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-[#064090] transition duration-300">
+          <button className="cursor-pointer flex items-center gap-3 bg-[#FBC02D] text-white font-semibold px-6 py-3 rounded-lg shadow-md  transition duration-300">
             Get Started <FaArrowRight />
           </button>
         </div>

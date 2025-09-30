@@ -20,7 +20,7 @@ const BestCompany = () => {
 
             {/* Right Side - Content */}
             <div className="md:col-span-3 flex flex-col space-y-2 md:p-0 p-6">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#053268] leading-snug">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#C62828] leading-snug">
                     Choose The Best Event Management Company In Pakistan
                 </h2>
                 <p className="text-gray-700 leading-relaxed text-base">
@@ -40,7 +40,7 @@ const BestCompany = () => {
                     memorable events that meet your expectations. Our team manages all
                     planning details so you can focus on experiencing your special events.
                 </p>
-                <button className="group flex items-center gap-2 w-fit bg-[#053268] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#03244d] transition-all duration-300">
+                <button className="group flex items-center gap-2 w-fit bg-[#FBC02D] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#03244d] transition-all duration-300">
                     Book Your Wedding Now
                     <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
                 </button>

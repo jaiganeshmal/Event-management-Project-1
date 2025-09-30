@@ -47,7 +47,7 @@ const Steps = () => {
                     and strategy. Each of these steps plays an important role in transforming
                     ideas into perfection.
                 </p>
-                <button className="bg-[#053268] text-white cursor-pointer font-semibold px-6 py-3 rounded-lg hover:scale-105 transition shadow-md">
+                <button className="bg-[#FBC02D] text-white cursor-pointer font-semibold px-6 py-3 rounded-lg hover:scale-105 transition shadow-md">
                     Book Your Wedding Now
                 </button>
             </div>
