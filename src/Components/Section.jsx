@@ -20,7 +20,7 @@ const Section = () => {
       </h2>
 
       {/* Paragraph */}
-      <p className="max-w-3xl mx-auto text-gray-600 leading-relaxed mb-4">
+      <p className="max-w-3xl mx-auto text-gray-500 leading-relaxed mb-4">
         UC Event Planner comprises of the best event planner in Karachi that
         make your event memorable. We deliver transformational elements to any
         event that goes beyond the normal expectations of our clients. From

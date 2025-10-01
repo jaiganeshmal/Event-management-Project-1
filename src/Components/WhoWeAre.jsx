@@ -27,11 +27,11 @@ const WhoWeAre = () => {
 
           {/* Main Heading */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-snug">
-            <span className="text-[#C62828]">Most</span> Trusted Event Planners in Karachi, Pakistan
+            <span className="text-[#C62828]">Most</span> Trusted Events Planner in Karachi, Pakistan
           </h2>
 
           {/* Paragraph */}
-          <p className="text-gray-600 leading-relaxed text-justify">
+          <p className="text-gray-500 leading-relaxed text-justify">
             Uc Event Planner is a creative event planning and management company
             in Karachi that plans, designs, manages and executes your events from
             the start to the final day. We are the leading event planners in Karachi
@@ -39,7 +39,7 @@ const WhoWeAre = () => {
             photography, to decor and placement of the elements, we know how to
             bring your ideas to reality, making the event look even more amazing.{" "}
             We as{" "}
-            <span className="text-[#053268] font-medium">
+            <span className="text-[#C62828] font-medium">
               professional event planners in Karachi
             </span>{" "}
             will make sure you’re getting quality against the time and money
