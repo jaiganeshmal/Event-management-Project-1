@@ -46,10 +46,10 @@ const FaqSection = () => {
 
       {/* Right Side - FAQ */}
       <div className="space-y-6">
-        <span className="px-4 py-1 bg-[#C62828] text-white text-sm font-semibold rounded-full w-fit">
+        <span className="px-4 py-1 bg-[#F4F4F4] text-[#C62828] text-sm font-semibold rounded-md w-fit">
           FAQS
         </span>
-        <h3 className="text-xl md:text-2xl font-bold text-gray-800">
+        <h3 className="text-xl md:text-2xl font-bold text-gray-800 mt-2">
           <span className="text-[#C62828]">Most</span> Common Questions
         </h3>
 

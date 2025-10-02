@@ -59,8 +59,8 @@ const Section = () => {
           href="https://tiktok.com"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-black transition"
-        >
+          className="hover:text-black  transition"
+        > 
           <FaTiktok />
         </a>
       </div>
