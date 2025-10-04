@@ -11,6 +11,7 @@ const Insights = lazy(() => import("./Pages/Insights"));
 const Gallery = lazy(() => import("./Pages/Gallery"));
 const Venus = lazy(() => import("./Pages/Venus"));
 const Contact = lazy(() => import("./Pages/Contact"));
+const PageNotFound = lazy(() => import("./Components/PageNotFound"));
 
 export default function App() {
   return (
@@ -24,6 +25,8 @@ export default function App() {
           <Route path="/venus" element={<Venus />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+
+            <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Suspense>
       <Footer />

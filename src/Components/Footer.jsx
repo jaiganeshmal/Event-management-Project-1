@@ -26,7 +26,7 @@ const navLinks = [
 const Footer = () => {
     return (
         <footer
-            className="w-[98%] mx-auto mt-2 border border-red-700 rounded-xl overflow-hidden"
+            className="w-[98%] mx-auto mt-2 rounded-xl overflow-hidden"
             style={{
                 backgroundImage: `url(${assets.image12})`,
                 backgroundSize: "cover",
